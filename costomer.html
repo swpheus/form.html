@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>costomer.html</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+        <h2>회원정보입력</h2>
+        <div>
+          <h6>기본입력</h6><h6>표시 필수입력 사항</h6>
+          <form class="form1" action="#" method="post">
+            <fieldset>
+              <legend>아이디 패스워드 입력</legend>
+              <ul>
+                <li><label>성명(한글)</label>
+                  <select name="MR">
+                  <option value="Mr">Mr.</option>
+                  <option value="Ms">Ms.</option>
+                  </select>
+                  <input type="text" name="name" />
+                </li>
+                <li><label>성명(영문)</label>First name(이름)
+                  <input type="text" name="name" />Last name(성)
+                  <input type="text"  name="name" /></li>
+                <li><label>이메일</label>
+                  <input type="text">@<input type="text" />
+                  <select  name="email">
+                    <option value="직접입력">직접입력</option>
+                    <option value="naver.com">naver.com</option>
+                  </select>
+                  <button type="button" name="button">이메일 중복확인</button>
+                </li>
+                <li><label>휴대전화</label>
+                    <select name="phone1">
+                      <option value="010">010</option>
+                      <option value="011">011</option>
+                    </select>
+                    <input type="phone" name="phone"/>
+                    <input type="phone" name="phone" />
+                </li>
+                <li><label>자택전화</label>
+                    <select name="phone1">
+                      <option value="010">02</option>
+                      <option value="011">031</option>
+                    </select>
+                    <input type="home"name="tell" />
+                    <input type="home"name="tell" />
+                </li>
+                <li class="addr"><label>주소</label>
+                    <input type="text">
+                    <button type="button" name="search">주소찾기_window</button>
+                    <button type="button" name="search1">주소찾기_layer</button>
+                    <input type="text" name="address" class="w100" />
+                    <input type="text" name="address" class="w100" />
+                </li>
+              </ul>
+
+            </fieldset>
+              <div class="btn">
+                  <button>가입신청</button>
+                  <button>취소</button>
+              </div>
+          </form>
+        </div>
+    </div>
+
+  </body>
+</html>
