@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <title>costomer.html</title>
     <link rel="stylesheet" href="style.css">
+    <script src="common/form.js">
+    </script>
+    <link rel="script" href="/common/form.js">
   </head>
   <body>
     <div id="wrapper">
         <h2>회원정보입력</h2>
         <div>
           <h6>기본입력</h6><h6>표시 필수입력 사항</h6>
-          <form class="form1" action="#" method="post">
+          <form class="form1" action="#" method="post" onsubmit="return check(this)">
             <fieldset>
               <legend>아이디 패스워드 입력</legend>
               <ul>
